@@ -1,0 +1,646 @@
+html {
+    font-family: 'Dosis', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body{
+    padding: 20px;
+}
+
+main{
+    margin-top:250px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.service-head >p , .service-card >p,.project-head>p,.team-head>p ,.team-member>p,.projects p,.Blog-head>p{
+    color: #919198;
+}
+/* CSS for header section desktop version  start */
+header {
+    background-image: linear-gradient(76deg, rgba(193, 195, 204, 0.83) 35%, rgba(193, 195, 204, 0.28) 100%),url("https://nuuk-e3eaa.firebaseapp.com/assets/img/slide-2.jpg");
+    height: 80vh;
+    background-position-x: center;
+    background-position-y: -200px;
+    padding: 20px 30px;
+    position: relative;
+}
+.topbar {
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+
+#logo {
+    background-color: #e47312;
+    font-size: 30px;
+    padding: 30px;
+    font-weight: 900;
+    color: aliceblue;
+    overflow: visible;
+    display: inline-block;
+    width: 10%;
+    justify-content: flex-start;
+    cursor: pointer;
+}
+
+header > h1 {
+    font-size: 60px;
+    color: aliceblue;
+    margin:50px 0px 20px 0px;
+}
+header > h3  {
+    color: rgb(229, 237, 245);
+    margin:50px 0px 20px 0px;
+}
+nav{
+    height: 80px;
+    background-color: rgb(243, 243, 243);
+    display: flex;
+    justify-content: end;
+    margin:  0px 0px auto 0px;
+    width: 90%;
+}
+nav >span {
+    padding: 15px;
+    margin:  auto 5px;
+    cursor: pointer;
+}
+.line {
+    border: 1px solid black;
+    margin: 2px;
+    width: 15px;
+    display: none;
+}
+#Quote-btn{
+    background-color: #e47312;
+    border: none;
+    color: aliceblue;
+    height: 100%;
+    padding: 15px;
+    cursor: pointer;
+}
+#Quote-btn2:hover,#Quote-btn:hover{
+    background-color: #e0a978;
+}
+#Quote-btn2 {
+    background-color: #e47312;
+    border: none;
+    color: aliceblue;
+    padding: 25px;
+    font-size: x-small;
+    cursor: pointer;
+}
+.info-social {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top:150px;
+    cursor: pointer;
+}
+.info-social > div >img {
+    float: right;
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    border-bottom: 1px solid white;
+    background-color: #0a1229;
+}
+.contact {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    background: linear-gradient(186deg, #e47312, #ff6361);
+    position:absolute;
+    right: 0%;
+}
+.contact-card {
+    padding: 50px;
+    text-align: center;
+    color: aliceblue;
+}
+.contact-card >img {
+    height: 25px;
+    width: 25px;
+    padding: auto 0;
+}
+/* CSS for header section desktop version  end */
+
+/*Service Section CSS  desktop version Start*/
+.service-section {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.service-head {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+.section-description{
+    font-size: 100px;
+    position:absolute;
+    color: aliceblue;
+    z-index: -1;
+}
+.service-head >h1 ,.service-head >p {
+    padding: 0px 20px ;
+}
+.hover-effect:hover{
+    cursor: pointer;
+    text-decoration: underline 2px solid #e47312; 
+}
+.hover-effect2:hover{
+    cursor: pointer;
+    text-decoration: underline 2px solid #f7f6f5; 
+}
+.service-body {
+    width: 100%;
+    display: flex;
+}
+.service-card{
+    padding: 20px 20px;
+}
+.service-card >img {
+    height:60px;
+    width:60px;
+}
+/*Service Section CSS desktop version end*/
+/*About Section CSS desktop version  start */
+.about-section {
+    width: 100%;
+    display: flex;
+}
+.about-section>img ,.about-description {
+    width: 50%;
+    padding: 20px;
+}
+.about-description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.about-description >h1 {
+    margin: 0px 0px 20px 0px;
+    font-size:  42px;
+
+}
+.about-description >p {
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+}
+.about-stats {
+    display: flex;
+    padding: 20px;
+}
+.stats-group >h1{
+    font-size: 60px;
+    color: #e47312;
+}
+.stats-group>p {
+    margin-bottom: 10px;
+    color: #919197;
+    font-size: 17px;
+    line-height: 25px;
+    padding-right: 100px;
+}
+/*About Section CSS desktop version end */
+/*Project Section CSS desktop version start*/
+.project-head ,.team-head ,.Blog-head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.project-gallery {
+    width: 100%;
+}
+.img-grp {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.img-grp > .img-div > img {
+    height: 360px;
+    padding: 10px;
+}
+.img-div{
+    position: relative;
+    cursor: pointer;
+}
+.circle:hover{
+    opacity: 100%;
+    
+}
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: #e47312;
+    background-color: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78));
+    border-radius: 40px;
+    position: absolute;
+    top:40%;
+    left: 40%;
+    opacity: 10%;
+    cursor: pointer;
+}
+.circle >p {
+    margin: 20px;
+}
+.project-gallery-2{
+    padding-top: 7%;
+    padding-bottom: 7%;
+    background-color: #e47312;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78)), url(https://nuuk-e3eaa.firebaseapp.com/assets/img/banner-2.jpg);
+    background-position: 0px 0px, 50% 50%;
+    background-size: auto, cover;
+    background-repeat: repeat, no-repeat;
+    background-attachment: scroll, fixed;
+    text-align: center;
+    color: aliceblue;
+}
+/*Project Section CSS desktop version end*/
+/*Team Section CSS desktop version  start*/
+.team-section {
+    background-color: #f7f8fc;
+    padding: 20px;
+}
+.team-head{
+    margin: 30px 0px;
+}
+
+.team-body {
+    display: flex;
+}
+.team-member {
+    width: 25%;
+    background-color: white;
+    height: 25%;
+    position: relative;
+    margin-right: 10px;
+}
+.team-member >img {
+    width: 100%;
+    height: 22%;
+}
+
+.tm-social  {
+    display: block;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    cursor: pointer;
+}
+.tm-social > div >img{
+    height: 20px;
+    width: 20px;
+    background-color: #e47312;
+    padding: 20px;
+}
+.projects {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    margin-bottom: 100px;
+}
+.p-left {
+    width: 50%;
+    margin: auto 0px ;
+}
+.p-right {
+    width: 50%;
+    display: flex;
+}
+.t-card {
+    text-align: center;
+    background-color: white;
+    width: 100%;
+    margin-top: 30px;
+}
+.t-wrapper {
+    padding: 20px;
+}
+.symbol {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background-color: #e47312;
+    margin: auto;
+    transform: translateY(-25px);
+    color: #fff;
+    font-size: 80px;
+}
+
+#john,#sami {
+    transform: translate(0px, 100px);
+}
+.t-wrap-inside {
+    padding: 20px;
+}
+/*Team Section CSS desktop version  end*/ 
+/*Blog Section CSS desktop version  start*/ 
+.Blog-body {
+    display: flex;
+    flex-direction: row;
+}
+.blog-card {
+    width: 33%;
+    padding: 20px;
+    position: relative;
+}
+.blog-card >img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+.blog-description{
+    padding: 10px;
+    color: #f7f8fc;
+    background-color: #e47312;
+    background-image: linear-gradient(158deg, #e47312, #ff6361);
+}
+.blog-date{
+ display: inline-block;
+ text-align: center;
+ background-color: #f7f8fc;
+ color: #0a1229;
+ position: absolute;
+ right: 20px;
+ cursor: pointer;
+}
+#date{
+    margin: 0px;
+    padding: 25px;
+    background-image: linear-gradient(45deg, #ff6361, #e47312);
+}
+/*Blog Section CSS desktop version end*/ 
+
+/*Sibling Section CSS desktop version start*/ 
+.sibling-wrapper { 
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    background-image: linear-gradient(72deg, #e47312, rgba(255, 99, 97, 0.78));
+    align-items: center;
+    color: #f7f8fc;
+}
+.sibling-wrapper h1 {
+    cursor: pointer;
+}
+/*Sibling Section CSS desktop version end*/ 
+/*Footer Section CSS desktop version  start*/ 
+footer{ 
+    display: block;
+    background-color: #0a1229;
+    margin: 0px 30px;
+}
+.foot-container{
+    display: flex;
+}
+.footer-info{
+    width: 33.3%;
+    padding: 50px;
+    color: #fff;
+}
+.foot-wrapper{
+    display: flex;
+}
+.foot-line{
+    border: 1px solid #e47312;
+    width: 65%;
+    margin: auto;
+}
+
+.foot-decription>div >img{
+    height: 20px;
+    width: 20px;
+    padding: 20px;
+    vertical-align: middle;
+
+}
+.num{
+    padding-left: 60px;
+}
+
+/*Footer Section CSS desktop version end*/ 
+
+/* MOBILE VERSION MEDIA QUERIES FOR SCREEN SIZE 400 PX AND  BELOW */
+
+@media screen and (max-width:400px) {
+    html{
+        width: 100vw;
+    }
+    body{
+        padding: 0px;
+        margin: 0px;
+    }
+    main{
+        margin-top: 20px;
+    }
+    /*CSS for header section Mobile version  start */
+    header {
+        padding: 0px;
+        height: 500px;
+    }
+    header > h1 {
+        font-size: 40px;
+        padding: 10px 10px;
+    }
+    header > h3  {
+        font-size: 15px;
+        padding: 10px 10px;
+        width: 300px;
+    }
+    .topbar {
+        height: 40px;  
+    }
+    #logo{
+        font-size: small;
+        padding: 10px;
+    }
+    nav{
+        height: 40px;
+        width: 90%;
+    }
+    .icon {
+        margin: 15px;
+        cursor: pointer;
+    }
+    .line {
+        display: block;
+    }
+    .contact,#Quote-btn{
+         display:none;
+        }
+    nav >span {
+        display: none;
+    }
+    #Quote-btn2{
+        margin: 10px;
+    }
+    .info-social {
+        top:258px;
+    }
+    /*CSS for header section Mobile version  end */
+    /*CSS for Service section Mobile version  end */
+    .service-head {
+        display: block;
+    }
+    .service-head >h1{
+        font-size: 20px;
+    }
+    .service-head >p {
+        font-size: 10px;
+    }
+    .service-body{
+        display: block;
+    }
+    /*CSS for Service section Mobile version  end */
+    /*CSS for About section Mobile version  start */
+    .about-section{
+        display: block;
+        width: 100%;
+    }
+    .about-section>img ,.about-description {
+        display: block;
+        width: 100%;
+        padding: 0px;
+    }
+    .about-description p ,h1{
+        padding: 10px;
+    }
+    .about-stats {
+        display: block;
+        padding: 10px;
+    }
+    .stats-group>p {
+        padding: 0px;
+    }
+    /*CSS for About section Mobile version end */
+    /*CSS for Projects section Mobile version start */
+    .project-section ,.project-head{
+        width: 100%;
+        display: block;
+        padding: 0px;
+    }
+   .project-head >h1 ,p{
+     padding: 10px;
+   }
+   .project-head >div {
+       width: 100%;
+       overflow: hidden;
+       font-size: 100px;
+       position: absolute;
+       top: 0px;
+   }
+   .project-gallery,.img-grp{
+       display: block;
+       width: 100%;
+       padding: 0px;
+   }
+   .img-grp > .img-div{
+       padding: 5px 10px;
+   }
+   .img-grp > .img-div > img {
+    width: 100%;
+    padding: 0px;
+   }
+   .circle >p {
+       margin: 10px;
+   }
+    .project-gallery-2{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    /*CSS for Projects section Mobile version ends */
+    /*CSS for team section Mobile version start */
+    .team-section,.team-head,.team-body,.projects,.p-right,.p-left{
+        width: 100%;
+        display: block;
+        margin: 0px;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .team-head h1,p {
+        padding: 10px;
+    }
+    .team-head >div {
+        width: 100%;
+       display: none;
+       padding: 0px;
+    }
+    .team-member{
+        width: 100%;
+        display: block;
+    }
+    .team-member h3 ,p{
+        padding: 10px;
+    }
+    .p-left >h1{
+        padding: 10px;
+    }
+    .p-left >div {
+        display: none;
+    }
+    #john, #sami{
+        transform: translate(0px,0px);
+    }
+    
+    /*CSS for team section Mobile version end */
+    /*CSS forblog section Mobile version ends */
+    .Blog-section ,.Blog-head{
+        width: 100%;
+        display: block;
+        padding: 0px;
+        overflow: hidden;
+    }
+    .Blog-head p ,h1 {
+        padding: 10px;
+    }
+    .Blog-head > div {
+        display: none;
+    }
+    .Blog-body {
+        display: block;
+        width: 95%;
+    }
+    .blog-card{
+        width: 100%;
+        padding: 0px;
+        margin: 10px;
+    }
+    .blog-date {
+        right: 0;
+    }
+     /*CSS for blog section Mobile version ends */
+    /*Sibling Section CSS Mobile  version  start*/ 
+    .Sibling-company-section{
+        text-align: center;  
+    }
+    .sibling-wrapper{
+        width: 100%;
+        display: inline-block;
+        padding: 0;
+    }
+    /*Sibling Section CSS Mobile  version end*/ 
+    /*Footer Section CSS Mobile version  start*/ 
+    footer{
+        margin: 0;
+        display: block;
+        width: 100%;
+    }
+    .foot-container {
+        display: inline-block;
+        width: 100%;
+    }
+    .footer-info{
+        width: 100%;
+        padding: 0px
+    }
+    .foot-wrapper,.foot-decription{
+        display: 100%;
+        padding: 10px;
+    }
+}
